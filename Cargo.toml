@@ -1,0 +1,14 @@
+[package]
+name = "covpass-scanner"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flate2 = "1.0"
+bardecoder = "0.3.0"
+sk-cbor = "0.1.2"
+image = "0.23"
+base45 = "3.0.0"
+serde_cose = "0.1.0"
